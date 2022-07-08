@@ -71,7 +71,7 @@ Luego reiniciar VSCode.
 `curl -X PUT "http://localhost:8000/pelicula/_OBJECTID_" -d '{"name": "Gran Turismo", "year": 2009, "director": "Coco Legrand"}' -i`
 
 ❌ Eliminar Pelicula por id:
-`curl -X DELETE "http://localhost:8000/pelicula/62c77a973a38d7bb5f43841f" -i`
+`curl -X DELETE "http://localhost:8000/pelicula/_OBJECTID_" -i`
 
 ## 🕵 Cómo contribuir 
 Puedes crear un pull request al proyecto 😉.
